@@ -20,7 +20,7 @@ Giả sử như ta có 8Gb RAM, như vậy ta dùng khoảng 4Gb cho việc sắ
 
 Ghi kết quả ra đĩa. Lặp lại cho tới khi dữ liệu được sắp xếp với mỗi khối 4Gb (5 khối).
 
-Đọc 0.8Gb mỗi khối đưa vào input buffer. Thực hiện sort rồi đẩy vào output buffer.
+Đọc 0.8Gb mỗi khối đưa vào input buffer. Thực hiện merge rồi đẩy vào output buffer.
 
 Mỗi khi output buffer đầy thì ta đẩy hết kết quả vào file đích rồi xoá sạch đi. Sau đó thực hiện gộp tiếp tới khi hết dữ liệu.
 
